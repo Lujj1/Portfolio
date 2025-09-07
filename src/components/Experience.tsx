@@ -3,6 +3,30 @@ import { Users, Megaphone, Calendar, Trophy } from "lucide-react";
 const Experience = () => {
   const activities = [
     {
+      title: "Digital Marketing Intern",
+      organization: "Digital Marketing Agency",
+      icon: Trophy,
+      color: "accent",
+      responsibilities: [
+        "Completed 1-month intensive internship program",
+        "Assisted in developing digital marketing strategies",
+        "Analyzed social media metrics and engagement data",
+        "Contributed to content creation and campaign planning",
+      ],
+    },
+    {
+      title: "Social Media Manager",
+      organization: "AT Company",
+      icon: Users,
+      color: "secondary",
+      responsibilities: [
+        "Managed social media accounts for 1 month",
+        "Created and scheduled engaging content across platforms",
+        "Monitored social media trends and audience engagement",
+        "Developed content calendars and posting strategies",
+      ],
+    },
+    {
       title: "Vice President, Marketing & Media Coverage",
       organization: "Target Team, Mansoura University",
       icon: Megaphone,
