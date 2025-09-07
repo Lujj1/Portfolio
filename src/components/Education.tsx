@@ -3,10 +3,22 @@ import { GraduationCap, Award, Calendar, MapPin } from "lucide-react";
 const Education = () => {
   const certificates = [
     {
+      title: "Flutter Development Certificate",
+      organization: "Telecom Egypt (WE) Diploma Program",
+      icon: "🏆",
+      description: "Certified in Flutter mobile app development with advanced UI/UX design",
+    },
+    {
       title: "Flutter Diploma",
       organization: "Telecom Egypt (WE) Internship",
       icon: "📱",
       description: "Comprehensive training in Flutter mobile development",
+    },
+    {
+      title: "React Development Certificate",
+      organization: "SEF Academy",
+      icon: "⚛️",
+      description: "Advanced React.js development and modern web application architecture",
     },
     {
       title: "Front-End Development Course",
@@ -17,7 +29,7 @@ const Education = () => {
     {
       title: "DEPI - Digital Egypt Pioneers Initiative",
       organization: "React Development Track",
-      icon: "⚛️",
+      icon: "🚀",
       description: "Advanced React development training (ongoing)",
     },
   ];
