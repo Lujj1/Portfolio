@@ -6,8 +6,8 @@ const Contact = () => {
     {
       icon: Mail,
       label: "Email",
-      value: "lujainwahid2003@gmail.com",
-      href: "mailto:lujainwahid2003@gmail.com",
+      value: "lujainwahid.div@gmail.com",
+      href: "mailto:lujainwahid.div@gmail.com",
       color: "primary",
     },
     {
@@ -110,7 +110,7 @@ const Contact = () => {
             <div className="bg-gradient-card rounded-3xl p-8 shadow-card">
               <h3 className="text-2xl font-bold mb-6 text-foreground">Send a Message</h3>
               <form
-                action={`mailto:lujainwahid2003@gmail.com`}
+                action={`mailto:lujainwahid.div@gmail.com`}
                 method="get"
                 encType="text/plain"
                 className="space-y-4"

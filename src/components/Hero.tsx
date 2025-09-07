@@ -45,8 +45,8 @@ const Hero = () => {
             </div>
             <div className="flex items-center gap-2 text-muted-foreground">
               <Mail className="w-4 h-4 text-primary" />
-              <a href="mailto:lujainwahid2003@gmail.com" className="hover:text-primary transition-colors">
-                lujainwahid2003@gmail.com
+              <a href="mailto:lujainwahid.div@gmail.com" className="hover:text-primary transition-colors">
+                lujainwahid.div@gmail.com
               </a>
             </div>
           </div>
@@ -74,7 +74,7 @@ const Hero = () => {
               </a>
             </Button>
             <Button variant="ghost" size="icon" asChild className="hover:text-primary hover:scale-110">
-              <a href="mailto:lujainwahid2003@gmail.com">
+              <a href="mailto:lujainwahid.div@gmail.com">
                 <Mail className="w-5 h-5" />
               </a>
             </Button>
