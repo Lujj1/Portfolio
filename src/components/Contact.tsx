@@ -7,7 +7,7 @@ const Contact = () => {
       icon: Mail,
       label: "Email",
       value: "lujainwahid.div@gmail.com",
-      href: "mailto:lujainwahid.div@gmail.com",
+      href: "https://formspree.io/f/mnnbrqqk",
       color: "primary",
     },
     {
