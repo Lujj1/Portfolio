@@ -109,12 +109,12 @@ const Contact = () => {
             {/* Message Form */}
             <div className="bg-gradient-card rounded-3xl p-8 shadow-card">
               <h3 className="text-2xl font-bold mb-6 text-foreground">Send a Message</h3>
-              <form
-                action={`mailto:lujainwahid.div@gmail.com`}
-                method="get"
-                encType="text/plain"
-                className="space-y-4"
-              >
+             <form
+  action="https://formspree.io/f/https://formspree.io/f/mnnbrqqk"
+  method="POST"
+  className="space-y-4"
+>
+
                 <div>
                   <label htmlFor="subject" className="block text-sm font-medium text-foreground mb-2">
                     Subject
