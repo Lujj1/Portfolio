@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion';
 import { FiDownload } from 'react-icons/fi';
 import { HiDocumentText } from 'react-icons/hi';
-import resumePdf from '../assets/pdf/Lujain wahid CV.pdf';
+import resumePdf from '../assets/pdf/CV.pdf';
 
 export default function Resume() {
   return (

@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion';
 import { FiDownload } from 'react-icons/fi';
 import { HiArrowRight } from 'react-icons/hi';
-import  cv from '../assets/pdf/cv.pdf';
+import cv from '../assets/pdf/CV.pdf';
 
 export default function Hero() {
   const containerVariants = {
