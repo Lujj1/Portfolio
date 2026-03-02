@@ -1,6 +1,7 @@
 import { motion } from 'framer-motion';
 import { FiDownload } from 'react-icons/fi';
 import { HiArrowRight } from 'react-icons/hi';
+import  cv from '../assets/pdf/cv.pdf';
 
 export default function Hero() {
   const containerVariants = {
@@ -84,7 +85,10 @@ export default function Hero() {
             </a>
             
             <a 
-              href="/resume.pdf" 
+              href={cv} 
+              download="cv.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
               className="group px-8 py-3.5 rounded-xl bg-white text-slate-700 font-medium border border-slate-400 hover:border-primary-600 hover:text-primary-600 transition-all w-full sm:w-auto flex items-center justify-center gap-2 hover:shadow-md"
             >
               <FiDownload className="group-hover:animate-bounce" />

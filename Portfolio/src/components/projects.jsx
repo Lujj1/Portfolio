@@ -1,9 +1,9 @@
 import { motion } from 'framer-motion';
 import { useState } from 'react';
 import { FiGithub, FiExternalLink } from 'react-icons/fi';
-import ssa from '../assets/ssa.png';
-import ecommerce from '../assets/ecommerce.png';
-import florista from '../assets/florista.png';
+import ssa from '../assets/images/ssa.png';
+import ecommerce from '../assets/images/ecommerce.png';
+import florista from '../assets/images/florista.png';
 
 export default function Projects() {
   const [activeAlert, setActiveAlert] = useState(null);
