@@ -28,7 +28,7 @@ export default function Projects() {
       }
     },
     {
-      title: "Smart Student Advisor — Dashboards",
+      title: "Smart Student Advisor - Dashboards",
       description: "A web application that helps students organize and plan their academic courses based on university credit systems. This project strengthened my skills in building structured logic and user-focused interfaces.",
       tech: ["React", "Tailwind CSS", "JavaScript" ,"Git"],
       image: ssa,
